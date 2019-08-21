@@ -1,9 +1,6 @@
 sentence="i like to eat lots of cake"
 
 def reverse_each_word(sentence)
-  sentence.split.map do |word| 
-  word.reverse
-  word.join(" ")
+  sentence.split.collect {|word| word.reverse}.join(" ")
 end
-end 
 puts reverse_each_word(sentence)
