@@ -4,4 +4,4 @@ def reverse_each_word(sentence)
   sentence.split.map {|word| word.reverse}.join(" ")
 end
 
-reverse_each_word(sentence)
+puts reverse_each_word(sentence)
